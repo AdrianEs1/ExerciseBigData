@@ -65,5 +65,12 @@ print("Eliminación completada.")
 
 #Expliacion Codigo
 """
-Este script realiza una serie de operaciones sobre una base de datos HBase utilizando Python. Primero, establece una conexión con HBase y accede a una tabla específica llamada spotify_tracks. Luego, carga un archivo CSV que contiene información sobre canciones de Spotify y guarda los primeros 100 registros en la tabla, utilizando el identificador de la canción como clave principal. Posteriormente, lee y muestra los primeros 20 registros guardados, mostrando el nombre de la canción y el artista. Además, realiza una inserción manual de un nuevo registro, luego lo actualiza y, finalmente, lo elimina. Todo el proceso termina cerrando la conexión con la base de datos. En conclusión, el código demuestra cómo cargar, consultar, insertar, actualizar y eliminar datos en HBase de manera sencilla con Python.
+Este script realiza una serie de operaciones sobre una base de datos HBase 
+utilizando Python. Primero, establece una conexión con HBase y accede a una tabla específica llamada spotify_tracks. 
+Luego, carga un archivo CSV que contiene información sobre canciones de Spotify
+y guarda los primeros 100 registros en la tabla, utilizando el identificador de la canción como clave principal. 
+Posteriormente, lee y muestra los primeros 20 registros guardados, mostrando el nombre de la canción y el artista. 
+Además, realiza una inserción manual de un nuevo registro, luego lo actualiza y, finalmente, lo elimina. 
+Todo el proceso termina cerrando la conexión con la base de datos. 
+En conclusión, el código demuestra cómo cargar, consultar, insertar, actualizar y eliminar datos en HBase de manera sencilla con Python.
 """
